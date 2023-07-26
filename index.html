@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<html lang="en" data-theme="light">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fruit Burst roy</title>
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+        <style>
+            .font-lato {
+                font-family: 'Lato', sans-serif;
+            }
+        </style>
+        
+    </head>
+    
+<body class="font-lato">
+    <header>
+        <nav class="max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl navbar mx-auto mt-4 px-5 lg:px-0">
+            <div
+                class="navbar bg-base-100 bg-white md:bg-[#F85559] rounded-full flex justify-between items-center px-3 py-3">
+                <div class="navbar-start w-full md:w-[50%]">
+                    <div class="dropdown flex justify-between  w-full md:w-[1%] relative">
+                        <div class="w-[200px] items-center flex md:hidden">
+                            <img class="w-[40px] mr-2" src="images/logo.png" alt="Logo">
+                            <span class="text-2xl md:text-white font-bold">Fruit Burst</span>
+                        </div>
+
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <i class="fa-solid fa-bars text-2xl text-right md:text-white"></i>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 absolute top-10 right-5 md:left-5">
+                            <li><a class="lg:text-white font-medium">Home</a></li>
+                            <li><a class="lg:text-white font-medium">About Us</a></li>
+                            <li><a class="lg:text-white font-medium">Shop</a></li>
+                            <li><a class="lg:text-white font-medium">All Fruits</a></li>
+                            <div class="navbar-end relative inline md:hidden">
+                                <input
+                                    class="pl-3 py-0 w-full mr-0 rounded-full border-none placeholder:text-sm placeholder:text-[#1f2937] focus:outline-none"
+                                    type="text" placeholder="Search Here">
+                                <i class="fa-solid fa-magnifying-glass absolute top-1 text-[#1f2937]"></i>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1">
+                            <li><a class="text-white font-medium">Home</a></li>
+                            <li><a class="text-white font-medium">About Us</a></li>
+                            <li><a class="text-white font-medium">Shop</a></li>
+                            <li><a class="text-white font-medium">All Fruits</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w-[200px] items-center hidden md:flex">
+                    <img class="w-[40px] mr-2" src="images/logo.png" alt="Logo">
+                    <span class="text-2xl md:text-white font-bold">Fruit Burst</span>
+                </div>
+                <div class="hidden md:inline-block text-right navbar-end relative">
+                    <input
+                        class="px-3 py-2 w-[55%] mr-4 rounded-full border-none placeholder:text-sm placeholder:pl-3 focus:outline-none"
+                        type="text" placeholder="Search Here">
+                    <i class="fa-solid fa-magnifying-glass absolute right-8 top-3 cursor-pointer"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
     
 </body>
 </html>
